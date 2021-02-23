@@ -42,9 +42,6 @@ function Users(){
     .then(res =>res.json())
     .then(data =>setUsers(data))
   },[])
-  {
-    console.log(users, users.length)
-  }
   return(
     <div>
       <h3>Users:{users.length}</h3>
